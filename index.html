@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academy Name</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  /* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+header{
+  position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top of other elements */
+    background-color: #343a40; /* Ensure the background color is consistent when sticky */
+  
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-banner {
+    background: url("banner.jpg") no-repeat center center/cover;
+    height: 400px;
+}
+
+.main-banner h1 {
+    font-size: 48px;
+}
+
+.main-banner p {
+    font-size: 24px;
+}
+
+.main-banner .btn-primary {
+    background-color: #ff5722;
+    border-color: #ff5722;
+}
+
+.main-banner .btn-primary:hover {
+    background-color: #e64a19;
+    border-color: #e64a19;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media-links a {
+    margin: 0 10px;
+}
+
+footer .contact-info form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .contact-info input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+footer .contact-info button {
+    padding: 5px 10px;
+    background: #ff5722;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer .contact-info button:hover {
+    background: #e64a19;
+}y
+  </style>  
+</head>
+
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">Academy Logo</div>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#course">Courses</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#admission">Admission</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faculty">Faculty</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="search-bar"><input class="form-control" type="text" placeholder="Search..."></div>
+            
+    </header>
+
+    <main>
+        <section class="main-banner text-center text-white d-flex align-items-center justify-content-center">
+            <div>
+                <h1>Welcome to RAAST ACADEMY</h1>
+                <p>Straight Towards Success</p>
+                <a href="#about" class="btn btn-primary">Learn More</a>
+            </div>
+        </section>
+
+        <section class="introduction container my-5">
+            <h2 id="about">About Us</h2>
+            <p>Welcome to [RAAST ACADEMY], where excellence in education meets innovation and inspiration. At [RAAST ACAADEMY], we are committed to nurturing the intellectual, creative, and personal growth of each student. Our dedicated faculty, comprehensive curriculum, and vibrant community work in harmony to cultivate a learning environment that fosters curiosity, critical thinking, and a passion for knowledge. Join us on a journey of discovery and achievement, where every student is empowered to reach their full potential and make a positive impact on the world.</p>
+            <p>Key achievements or statistics.</p>
+        </section>
+
+        <section class="courses-preview container my-5">
+            <h2 id="course">Featured Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Course Title</h3>
+                    <p>Short description of the course.</p>
+                    <a href="course-details.html">Learn More</a>
+                </div>
+                <!-- Repeat for more courses -->
+            </div>
+        </section>
+
+        <section class="upcoming-events container my-5">
+            <h2>Upcoming Events</h2>
+            <p>Calendar or list of upcoming events.</p>
+        </section>
+
+        <section class="testimonials container my-5">
+            <h2>Testimonials</h2>
+            <blockquote class="blockquote">
+                "Quote from a student, parent, or faculty member."
+                <footer class="blockquote-footer">Name</footer>
+            </blockquote>
+        </section>
+      <main class="container my-5">
+        <section class="team my-5">
+            <h2>Our Team</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="faculty1.jpg" class="img-fluid rounded-circle" alt="Faculty Member">
+                    <h3>Faculty Name</h3>
+                    <p>Short bio of the faculty member.</p>
+                </div>
+                <!-- Repeat for more team members -->
+            </div>
+        </section>
+      </main>
+<main class="container my-5">
+        <section class="accreditations my-5">
+            <h2>Accreditations and Partnerships</h2>
+            <p>Information about any accreditations or partnerships.</p>
+        </section>
+</main>
+      <main class="container my-5">
+       <section class="courses-list">
+            <h2>Our Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Category Name</h3>
+                    <div>
+                        <h4>Course Title</h4>
+                        <p>Short description of the course.</p>
+                        <a href="course-details.html">Learn More</a>
+                    </div>
+                    <!-- Repeat for more courses in the category -->
+                </div>
+                <!-- Repeat for more categories -->
+            </div>
+        </section>
+      </main>
+      <main class="container my-5">
+        <section class="featured-courses my-5">
+            <h2>Featured Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Course Title</h3>
+                    <p>Short description of the course.</p>
+                    <a href="course-details.html">Learn More</a>
+                </div>
+                <!-- Repeat for more featured courses -->
+            </div>
+        </section>
+      </main>
+    <main class="container my-5">  
+       <section class="admission-requirements my-5">
+            <h2 id="admission">Admission Requirements</h2>
+            <p>Details about the required qualifications, documents, etc.</p>
+        </section>
+    </main>
+       <main class="container my-5">
+        <section class="application-form my-5">
+            <h2>Application Form</h2>
+            <form>
+                <div class="form-group">
+                    <label for="applicantName">Name</label>
+                    <input type="text" class="form-control" id="applicantName" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="applicantEmail">Email</label>
+                    <input type="email" class="form-control" id="applicantEmail" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="applicantPhone">Phone</label>
+                    <input type="tel" class="form-control" id="applicantPhone" placeholder="Enter your phone number">
+                </div>
+                <div class="form-group">
+                    <label for="applicantCourse">Course</label>
+                    <select class="form-control" id="applicantCourse">
+                        <option>Course 1</option>
+                        <option>Course 2</option>
+                        <option>Course 3</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+       </main>
+       <main class="container my-5">
+        <section class="admission-faqs my-5">
+            <h2>FAQs</h2>
+            <p>Common questions and answers about the admission process.</p>
+        </section>
+       </main>
+       <main class="container my-5">
+        <section class="faculty-directory">
+            <h2 id="faculty">Faculty Directory</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="faculty1.jpg" class="img-fluid rounded-circle" alt="Faculty Member">
+                    <h3>Faculty Name</h3>
+                    <p>Short bio of the faculty member.</p>
+                </div>
+                <!-- Repeat for more faculty members -->
+            </div>
+        </section>
+
+        <section class="faculty-research my-5">
+            <h2>Research</h2>
+            <p>Information about the faculty research and publications.</p>
+        </section>
+    </main>
+<main class="container my-5">
+        <section class="contact-form">
+            <h2 id="contact">Contact Us</h2>
+            <form>
+                <div class="form-group">
+                    <label for="contactName">Name</label>
+                    <input type="text" class="form-control" id="contactName" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="contactEmail">Email</label>
+                    <input type="email" class="form-control" id="contactEmail" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="contactMessage">Message</label>
+                    <textarea class="form-control" id="contactMessage" rows="5" placeholder="Enter your message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+        <section class="contact-info my-5">
+            <h2>Contact Information</h2>
+            <p>Email: info@academy.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Academy Street, City, State, ZIP</p>
+        </section>
+    </main>
+    </main>
+
+                       
+    <footer class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                </div>
+                <div class="col-md-4">
+                    <a href="#">Facebook</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+                <div class="col-md-4">
+                    <p>Contact Information</p>
+                    <form>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Sign up for our newsletter">
+                            <div class="input-group-append">
+                                <button class="btn btn-primary" type="submit">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+  </html>
